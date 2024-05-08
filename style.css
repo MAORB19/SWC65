@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;   
+}
+.profile {
+    border-radius: 50%;
+}
+#bienvenida {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#f90000 0%, #e6ff2c 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: rgb(0, 183, 255);
+}
+#nombre {
+    font-size: 50px;
+    font-family: "Jersey 10", sans-serif;
+    color: rgb(2, 230, 255);
+    
+}
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: "Orbitron", sans-serif;
+}
+#bio {
+    font-family: "Black Ops One", system-ui;
+    padding: 50px;
+    color: rgb(255, 0, 0);
+    background: linear-gradient(#f90000 0%, #e6ff2c 100%);
+}
+
+.line {
+    height: 6px;
+    background-color: cadetblue;
+    width:70px;
+    margin:8px auto;
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+
+
+.menú{
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index:10;
+    cursor:pointer;
+}
+
+.enlaces{
+    color: purple;
+    display: inline;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.enlaces:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#escritos a{
+    text-decoration: underline;
+    color: green 
+
+}
+
+#biografía{
+    background: lightcyan;
+}
+    
+.contact h3{
+    display: inline;
+}
+
+#biografía iframe{
+    width: 100%;
+}
+
+
+#videos{
+    background: linear-gradient(#f90000 0%, #e6ff2c 100%);
+}
+#carreras{
+    background: linear-gradient(#f90000 0%, #e6ff2c 100%);
+}
+#logros{
+    background: linear-gradient(#f90000 0%, #e6ff2c 100%);
+}
